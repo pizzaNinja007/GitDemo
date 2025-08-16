@@ -17,6 +17,7 @@ public class SelIntroduction {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\sahai\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com");
+		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
