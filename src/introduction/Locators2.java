@@ -14,6 +14,7 @@ public class Locators2 {
 		String name="john";
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sahai\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		String password=getPassword(driver);
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");

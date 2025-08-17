@@ -10,6 +10,7 @@ public class Locators3 {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sahai\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
 		//Sibling to parent traversing
 		// //header/div/button[1]/following-sibling::button[1]
 	    driver.get("https://rahulshettyacademy.com/AutomationPractice/");

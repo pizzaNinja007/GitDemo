@@ -18,6 +18,7 @@ public class WindowActivities {
 		driver.navigate().back();
 		//To move forward
 		driver.navigate().forward();
+		driver.close();
 
 	}
 
